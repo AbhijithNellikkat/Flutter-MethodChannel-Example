@@ -1,4 +1,4 @@
-# platform_channels_app
+# Flutter MethodChannel App
 
 A new Flutter project.
 
