@@ -40,7 +40,7 @@ class _HomeViewState extends State<HomeView> {
   var channel = const MethodChannel('toastChannel');
 
   showToast() {
-    channel.invokeMethod("showToast");
+    channel.invokeMethod("showToast", {'message' : 'This is the Method channel Sample Toast'});
   }
 
   @override
